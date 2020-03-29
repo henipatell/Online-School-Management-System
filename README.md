@@ -3,23 +3,23 @@ The purpose of this source is to describe the online school management system wh
 
 ## For Students:
 
-* ``View profile:
+* **View profile:**
   The system allows each student to view his/her profile.
-* ``View Results:
+* **View Results:**
   The system provides the students to view their results of the examinations held in school.
-* ``View attendance:
+* **View attendance:**
   The system provides the students to view their attendance.
-* ``View Fee Payment details:
+* **View Fee Payment details:**
   Students can view their fee payment details.
-* ``View performance:``
+* **View performance:**
   Students can check their performance throughout the year.
 
 
 ## For Staff:
 	
-* View Profile:
+* **View Profile:**
   The system allows the staff to view his/her profile.
-* Mark Students’ attendance:
+* **Mark Students' attendance:**
   The system allows the staff members to update attendance of the students.
-* Fee collection:
+* **Fee collection:**
   The system provides a facility to manage fees of students.
