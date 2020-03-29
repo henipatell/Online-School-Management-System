@@ -1,0 +1,43 @@
+﻿body {
+
+}
+
+ ul li
+ {
+    display: block;
+    table-layout:auto;
+    position:relative;
+    float: left;
+    width:129px;
+    text-align:center;
+    z-index: 1;
+    left: -24px;
+    top: -8px;
+    height: 23px;
+    background-clip:content-box;
+}
+
+ nav
+{
+    margin-left:175px; 
+      
+}
+
+  ul li a 
+  {
+       display: block; 
+       padding: 5px 5px 5px 5px ;
+       text-decoration: none;
+       color:  #009999;
+       font-size:20px;
+       white-space: nowrap;
+       width:auto;
+}
+
+
+  ul li a:hover {width:auto;color:#FFFFCC;background-color:#009999}
+  li:hover ul {display: block; position: absolute; width:auto }
+  li:hover li {float: none;width:auto;}
+  li:hover a{width:auto;}
+  li:hover li x:hover {width:auto;}
+  

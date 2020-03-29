@@ -1,0 +1,253 @@
+﻿
+/*
+	screen.css
+	Copyright 2006-2015 by Christopher Heng. All rights reserved.
+*/
+
+body {
+	color: black ;
+	background-color:gold;
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 0.9em ;
+	margin: 0 ;
+	padding: 0 ;
+}
+a:link {
+	color: blue ;
+	background-color: transparent ;
+}
+a:visited {
+	color: purple ;
+	background-color: transparent ;
+}
+a:hover {
+	color: black ;
+	background-color: #ccff00 ;
+}
+a:active {
+	color: red ;
+	background-color: transparent ;
+}
+
+ul.listoflinks {
+	margin-left: 0 ;
+	padding-left: 1.1em ;
+	list-style-type: disc ;
+}
+ul.listoflinks li {
+	margin-top: 0 ;
+	margin-bottom: 0 ;
+}
+p.infobox, div.infobox {
+	border: 1px solid blue ;
+	padding: 8px ;
+}
+
+input.searchentry {
+	width: 100px ;
+}
+
+div#toppanel {
+	position: absolute ;
+	left: 5px ;
+	top: 5px ;
+	width: 200px ;
+}
+div#logo {
+	margin-left: 25px ;
+}
+div#sidepanel {
+	position: absolute ;
+	top: 80px ;
+	left: 5px ;
+	width: 200px ;
+	text-align: center ;
+}
+div#maincontent {
+	position: absolute ;
+	top: 5px ;
+	left: 220px ;
+	right: 5px ;
+	width: auto ;
+	line-height: 1.3em ;
+	color: black ;
+	background-color: white ;
+}
+div#articletext {
+	padding: 8px ;
+}
+
+#articletext h1 {
+	font-size: 1.5em ;
+	line-height: 1.2em ;
+}
+#articletext h2 {
+	font-size: 1.3em ;
+	line-height: 1.2em ;
+}
+#articletext h3 {
+	font-size: 1.1em ;
+	line-height: 1.2em ;
+}
+.articlelist li {
+	margin-bottom: 1.5em ;
+}
+
+div#breadcrumbs {
+	padding: 8px ;
+	color: black ;
+	background-color: white ;
+	border: 1px solid black ;
+}
+
+div#footer {
+	clear: both ;
+	border: 1px solid black ;
+	margin: 0 ;
+	padding: 0 ;
+	color: black ;
+	background-color: white ;
+}
+#footer p {
+	padding: 6px ;
+	margin: 0 ;
+}
+
+h1#toptitle {
+	background-color: #330099 ;
+	color: #ffcc00 ;
+	padding: 10px ;
+	margin: 1px 1px ;
+	font-size: 2em ;
+	font-weight: bold ;
+	line-height: 1.2em ;
+}
+h2#subtitle {
+	background-color:#24006b ;
+	color: white ;
+	padding-top: 5px ;
+	padding-left: 10px ;
+	padding-right: 5px ;
+	padding-bottom: 5px ;
+	margin: 1px 1px ;
+	font-size: 1em ;
+	line-height: 1.2em ;
+}
+
+.menutitle {
+	color: white ;
+	background-color: black ;
+	text-align: center ;
+	padding: 2px ;
+	width: 190px ;
+}
+.menubutton {
+	width: 138px ;
+    height: 45px;
+    margin-left: 0px;
+}
+.menubutton ul {
+	margin: 0 ;
+	padding: 0 ;
+}
+.menubutton ul li {
+	margin: 0 ;
+	padding: 0 ;
+	list-style-type: none ;
+	display: block ;
+}
+.menubutton ul li a:link, .menubutton ul li a:visited {
+	color: black ;
+	background-color: #ffcc00 ;
+	text-decoration: none ;
+	border: 1px outset #b38f00 ;
+	display: block ;
+}
+.menubutton ul li a:hover {
+	color: white ;
+	background-color: #b38f00 ;
+	text-decoration: none ;
+}
+@media only screen and (max-width:629px) {
+	div#toppanel {
+		position: static ;
+		left: auto ;
+		top: auto ;
+		width: auto ;
+	}
+	div#logo {
+		width: 150px ;
+		margin-left: auto ;
+		margin-right: auto ;
+		margin-top: 10px ;
+		margin-bottom: 10px ;
+	}
+	div#maincontent {
+		position: static ;
+		top: auto ;
+		left: auto ;
+		right: auto ;
+		width: auto ;
+		line-height: 1.3em ;
+		color: black ;
+		background-color: white ;
+	}
+	div#sidepanel {
+		position: static ;
+		top: auto ;
+		left: auto ;
+		width: auto ;
+		margin-top: 197px ;
+		margin-left: 5% ;
+		text-align: center ;
+	}
+	input.searchentry {
+		width: 150px ;
+	}
+	textarea#linkcode {
+		width: 95% ;
+		max-width: 320px ;
+	}
+	.menubutton {
+		width: 90% ;
+	}
+	.menutitle {
+		width: 90% ;
+	}
+}
+div#cookienotice {
+	position: fixed ;
+	left: 0 ;
+	bottom: 0 ;
+	border: 1px solid #444 ;
+	padding: 4px ;
+	color: white ;
+	background-color: #444 ;
+	width: 100% ;
+	font-size: 0.9em ;
+	z-index: 1 ;
+}
+a#cookiepolicylink:link, a#cookiepolicylink:visited {
+	color: #87ceeb ;
+	background-color: transparent ;
+}
+a#cookiepolicylink:hover, a#cookiepolicylink:active {
+	color: yellow ;
+	background-color: transparent ;
+}
+a#cookienoticebutton {
+	color: black ;
+	background-color: #90ee90 ;
+	border: 1px solid #006400 ;
+	border-radius: 8px ;
+	text-decoration: none ;
+	margin-left: 5px ;
+}
+a#cookienoticebutton:visited {
+	color: black ;
+	background-color: #90ee90 ;
+}
+a#cookienoticebutton:hover, a#cookienoticebutton:active {
+	color: yellow ;
+	background-color: #0000c0 ;
+}
