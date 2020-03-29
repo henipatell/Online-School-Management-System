@@ -11,9 +11,9 @@ Two types of users: 1. Students 2. Staff/Teachers
   The system allows each student to view his/her profile.
 * **View Results:**
   The system provides the students to view their results of the examinations held in school.
-* **View attendance:**
+* **View Attendance:**
   The system provides the students to view their attendance.
-* **View Fee Payment details:**
+* **View Fee Payment Details:**
   Students can view their fee payment details.
 * **View Performance:**
   Students can check their performance throughout the year.
@@ -23,7 +23,7 @@ Two types of users: 1. Students 2. Staff/Teachers
 	
 * **View Profile:**
   The system allows the staff to view his/her profile.
-* **Mark Students' attendance:**
+* **Mark Students' Attendance:**
   The system allows the staff members to update attendance of the students.
 * **Fee Collection:**
   The system provides a facility to manage fees of students.
